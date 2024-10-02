@@ -93,7 +93,7 @@ print(student) #mutable
 test_tup = (7,1,3,5,4)
 
 #Mutating the list
-test_tup_appnd =test_tup.append(4) 
+#test_tup_appnd =test_tup.append(4) 
 
 #Sorting the list -- asc or desc
 
