@@ -122,3 +122,24 @@ else:
 
 # Use of break and continue
 
+
+#find factorial of first n numbers
+
+num = int(input("Enter the number"))
+i=1
+idx =1
+fact =1
+while(i<=num):
+    for i in range(1,i+1):
+        fact*=i
+    print(f"Fact of {i}  =",fact)
+
+    i+=1
+    fact =1
+
+print("Task completed")
+
+
+    
+    
+
